@@ -6,7 +6,7 @@
 /*   By: cedmulle <cedmulle@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 08:18:05 by cedmulle          #+#    #+#             */
-/*   Updated: 2024/02/17 08:27:29 by cedmulle         ###   ########.fr       */
+/*   Updated: 2024/02/17 08:37:34 by cedmulle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,27 +19,27 @@ int	main(void)
 	Harl	harl;
 
 	std::cout << GRY " -- Complains Level 1 --" RST << std::endl;
-	harl.complain("debug");
+	harl.complain("DEBUG");
 	std::cout << std::endl;
 	
 	std::cout << GRY " -- Complains Level 2 --" RST << std::endl;
-	harl.complain("info");
+	harl.complain("INFO");
 	std::cout << std::endl;
 	
 	std::cout << GRY " -- Complains Level 3 --" RST << std::endl;
-	harl.complain("warning");
+	harl.complain("WARNING");
 	std::cout << std::endl;
 	
 	std::cout << GRY " -- Complains Level 4 --" RST << std::endl;
-	harl.complain("error");
+	harl.complain("ERROR");
 	std::cout << std::endl;
 
 	std::cout << GRY " -- No valid complain --" RST << std::endl;
-	harl.complain("test");
+	harl.complain("TEST");
 	std::cout << std::endl;
 
 	std::cout << GRY " -- Empty complain () --" RST << std::endl;
-	harl.complain("test");
+	harl.complain("");
 	std::cout << std::endl;
 
 	return (0);

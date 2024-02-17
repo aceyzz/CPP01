@@ -6,7 +6,7 @@
 /*   By: cedmulle <cedmulle@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 07:57:09 by cedmulle          #+#    #+#             */
-/*   Updated: 2024/02/17 08:26:07 by cedmulle         ###   ########.fr       */
+/*   Updated: 2024/02/17 08:37:08 by cedmulle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	Harl::error(void)
 
 void	Harl::complain(std::string level)
 {
-	std::string complains[4] = {"debug", "info", "warning", "error"};
+	std::string complains[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	void	(Harl::*funcPtr[4])(void);
 
 	funcPtr[0] = &Harl::debug;
