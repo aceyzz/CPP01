@@ -1,5 +1,7 @@
 <img src="utils/2.png" width= 100%>
 
+---
+
 ## Introduction
 
 Le deuxième module de C++ à l'école 42, approfondit la compréhension de la gestion de la mémoire, des pointeurs vers les membres, des références et de l'instruction switch. Ce module vise à équiper les étudiants avec les compétences nécessaires pour gérer efficacement la mémoire dans leurs applications C++, en utilisant à la fois l'allocation dynamique et la manipulation directe des adresses mémoire. Les références et les pointeurs vers les membres sont explorés pour offrir une flexibilité accrue dans l'accès et la modification des données. En outre, l'utilisation de l'instruction switch est abordée dans le dernier exercice pour améliorer la prise de décision dans le code. Ensemble, ces sujets constituent une étape cruciale vers une maîtrise plus approfondie du C++, ouvrant la voie au développement de logiciels plus sophistiqués et performants.
