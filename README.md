@@ -134,6 +134,3 @@ L'implémentation de ```Harl::complain``` filtre les plaintes de ```Harl``` bas�
 
 <br>
 
-## Résultat
-
-
